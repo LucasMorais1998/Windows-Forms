@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3FBCDA9-1C65-4B25-A82B-E21E69C473C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CursoWindowsForms</RootNamespace>
+    <AssemblyName>CursoWindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CursoWindowsForms.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Imagens\Frm_Principal.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios_Curso1\Frm_DemonstracaoKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_DemonstracaoKey.Designer.cs">
+      <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_Mascara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_Mascara.Designer.cs">
+      <DependentUpon>Frm_Mascara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_HelloWorld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_HelloWorld.Designer.cs">
+      <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DemonstracaoKey_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_DemonstracaoKey_UC.Designer.cs">
+      <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HelloWorld_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_HelloWorld_UC.Designer.cs">
+      <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Mascara_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_Mascara_UC.Designer.cs">
+      <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaCPF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaCPF.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaCPF2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaCPF2.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Curso1\Frm_ValidaSenha.Designer.cs">
+      <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_MDI.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu_MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_UC.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF2_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF2_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaCPF_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaCPF_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frm_ValidaSenha_UC.Designer.cs">
+      <DependentUpon>Frm_ValidaSenha_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios_Curso1\Frm_DemonstracaoKey.resx">
+      <DependentUpon>Frm_DemonstracaoKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Curso1\Frm_HelloWorld.resx">
+      <DependentUpon>Frm_HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Curso1\Frm_Mascara.resx">
+      <DependentUpon>Frm_Mascara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DemonstracaoKey_UC.resx">
+      <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HelloWorld_UC.resx">
+      <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Mascara_UC.resx">
+      <DependentUpon>Frm_Mascara_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Curso1\Frm_ValidaCPF.resx">
+      <DependentUpon>Frm_ValidaCPF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Curso1\Frm_ValidaCPF2.resx">
+      <DependentUpon>Frm_ValidaCPF2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Curso1\Frm_ValidaSenha.resx">
+      <DependentUpon>Frm_ValidaSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu.resx">
+      <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu_MDI.resx">
+      <DependentUpon>Frm_Principal_Menu_MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu_UC.resx">
+      <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF2_UC.resx">
+      <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaCPF_UC.resx">
+      <DependentUpon>Frm_ValidaCPF_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ValidaSenha_UC.resx">
+      <DependentUpon>Frm_ValidaSenha_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
+    <Content Include="Imagens\Frm_DemonstracaoKey.png" />
+    <Content Include="Imagens\Frm_HelloWorld.ico" />
+    <Content Include="Imagens\Frm_HelloWorld.png" />
+    <Content Include="Imagens\Frm_Mascara.ico" />
+    <Content Include="Imagens\Frm_Mascara.png" />
+    <Content Include="Imagens\Frm_Principal.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF.png" />
+    <Content Include="Imagens\Frm_ValidaCPF2.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF2.png" />
+    <Content Include="Imagens\Frm_ValidaSenha.ico" />
+    <Content Include="Imagens\Frm_ValidaSenha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">
+      <Project>{40c6e535-0984-45da-b2e3-bbf499442aca}</Project>
+      <Name>CursoWindowsFormsBiblioteca</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
